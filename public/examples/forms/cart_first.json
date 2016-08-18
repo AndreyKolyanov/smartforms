@@ -1,0 +1,55 @@
+{
+  "block": "modal",
+  "submitButton": {
+    "label": "Оплатить"
+  },
+  "body": {
+    "form": {
+      "Платеж1": {
+        "block": "listItem",
+        "checked": true,
+        "imageUrl":"https://vp.ru/pay/resources/media/images/provider/logo/oks_inet.jpg",
+        "title": "Интернет Я.ru (Омские Кабельные Сети)",
+        "subtitle":"Комиссия 0%",
+        "price": "566.00",
+        "formUrl":"/static/examples/forms/registration.json"
+      },
+      "Платеж2": {
+        "block": "listItem",
+        "checked": true,
+        "imageUrl":"https://vp.ru/pay/resources/media/images/provider/logo/mts.png",
+        "title": "МТС",
+        "price": "566.00",
+        "formUrl":"/static/examples/forms/registration.json"
+      },
+      "Платеж3": {
+        "block": "listItem",
+        "checked": true,
+        "imageUrl":"https://vp.ru/pay/resources/media/images/provider/logo/beeline.jpg",
+        "title": "Билайн, сотовая связь",
+        "price": "566.00",
+        "formUrl":"/static/examples/forms/registration.json"
+      },
+      "div": {
+        "block":"divider"
+      },
+      "find": {
+        "block": "input",
+        "placeholder": "Найти компанию..."
+      }
+    },
+    "schema": [
+      {
+        "name": "Платежи",
+        "block": "list",
+        "items": [
+          "Платеж1",
+          "Платеж2",
+          "Платеж3"
+        ]
+      },
+      "div",
+      "find"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../styles/_variables.css";
+
+  li.$(cls-prefix)-list-item.item {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: -10px;
+
+  .item-head {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 7px;
+
+    .header-image {
+      float: left;
+    }
+
+    .panel-collapser{
+      font-size: 13px;
+      color: #CCCED2;
+      text-decoration-style: dotted;
+    }
+
+    .item-price {
+      float: right;
+      font-size: 19px;
+      font-family: sans-serif;
+    }
+
+    .item-subtitle{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .ruble {
+      float: right;
+      font-size: 15px;
+      top: 6px;
+    }
+  }
+}

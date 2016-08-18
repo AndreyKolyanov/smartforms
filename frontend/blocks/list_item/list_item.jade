@@ -1,0 +1,16 @@
+li.item(class="#{_prefix}-list-item #{cls}")
+    .item-head.clearfix
+        .modal-header
+            .header-wrap(class=imageUrl ? "" : "without-image")
+                if imageUrl
+                    .header-image
+                        span
+                            img(src=imageUrl width="60")
+                .header-title
+                    span.ruble.glyphicon.glyphicon-ruble(aria-hidden='true')
+                    .item-price= price
+                    h4.item-title= title
+                    h5.item-subtitle= subtitle
+                    span.panel-collapser
+                        a.link-show(href="#")="—Удалить платеж"
+            
