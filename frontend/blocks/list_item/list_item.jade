@@ -7,10 +7,12 @@ li.item(class="#{_prefix}-list-item #{cls}")
                         span
                             img(src=imageUrl width="60")
                 .header-title
-                    span.ruble.glyphicon.glyphicon-ruble(aria-hidden='true')
-                    .item-price= price
-                    h4.item-title= title
+                    .item-title= title
+                        .b-payment-side
+                            span.ruble= "₽"
+                            span.item-price= price
                     h5.item-subtitle= subtitle
                     span.panel-collapser
-                        a.link-show(href="#")="—Удалить платеж"
+                        span= "—"
+                        a.link-show(href="#")=" показать платеж"
             

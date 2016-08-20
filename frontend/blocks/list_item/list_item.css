@@ -1,39 +1,61 @@
-@import "../../styles/_variables.css";
+.item-head {
+  font-size: 19px;
 
-  li.$(cls-prefix)-list-item.item {
-  border-bottom: 1px solid #e1e1e1;
-  margin-bottom: -10px;
+  .header-image {
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .header-title{
 
-  .item-head {
-    font-size: 19px;
     line-height: 25px;
-    margin-bottom: 7px;
 
-    .header-image {
-      float: left;
+    .item-price {
+      font-family: "Arial";
+      float: right;
+      font-size: 19;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .item-title{
+      display: inline;
+    }
+
+    .b-payment-side{
+      float: right;
+    }
+
+    .item-subtitle{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #9E9E9E;
     }
 
     .panel-collapser{
       font-size: 13px;
       color: #CCCED2;
       text-decoration-style: dotted;
-    }
 
-    .item-price {
-      float: right;
-      font-size: 19px;
-      font-family: sans-serif;
-    }
+      .link-show{
+        color: #CCCED2;
+        text-decoration: none;
+      }
 
-    .item-subtitle{
-      margin-top: 0px;
-      margin-bottom: 0px;
+      .link-show:hover{
+        color:#e01f2b;
+      }
     }
 
     .ruble {
+      font-family: "PT Sans";
+      margin-left: 5px;
       float: right;
-      font-size: 15px;
-      top: 6px;
+      font-weight: 400;
+      font-size: 19px;
     }
   }
 }

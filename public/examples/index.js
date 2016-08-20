@@ -7,6 +7,8 @@ $(function () {
     $.get('forms/' + type + '.json', function (data) {
       window.form = smartforms.createForm(el, data);
     });
+
+    
   }).change();
 
   var providerTemplate = function (provider) {
