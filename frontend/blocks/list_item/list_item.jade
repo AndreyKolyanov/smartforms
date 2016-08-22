@@ -1,11 +1,11 @@
 li.item(class="#{_prefix}-list-item #{cls}")
     .item-head.clearfix
         .modal-header
-            .header-wrap(class=imageUrl ? "" : "without-image")
-                if imageUrl
+            .header-wrap(class=imgUrl ? "" : "without-image")
+                if imgUrl
                     .header-image
                         span
-                            img(src=imageUrl width="60")
+                            img(src=imgUrl width="60")
                 .header-title
                     .item-title= title
                         .b-payment-side

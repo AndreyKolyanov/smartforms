@@ -15,7 +15,7 @@
         "title": "Интернет Я.ru (Омские Кабельные Сети)",
         "subtitle":"Комиссия 0%",
         "price": "566.00",
-        "formUrl":"/static/examples/forms/registration.json"
+        "formUrl":"/static/examples/forms/vp/beeline.json"
       },
       "Платеж2": {
         "block": "listItem",
@@ -23,7 +23,7 @@
         "title": "МТС",
         "subtitle":"Комиссия 3%",
         "price": "566.00",
-        "formUrl":"/static/examples/forms/registration.json"
+        "formUrl":"/static/examples/forms/vp/beeline.json"
       },
       "Платеж3": {
         "block": "listItem",
@@ -31,7 +31,7 @@
         "title": "Билайн, сотовая связь",
         "subtitle":"Комиссия 3%",
         "price": "566.00",
-        "formUrl":"/static/examples/forms/registration.json"
+        "formUrl":"/static/examples/forms/vp/beeline.json"
       },
       "div": {
         "block":"divider"

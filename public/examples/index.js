@@ -1,4 +1,5 @@
 $(function () {
+
   $('.select-example').change(function () {
     $('.modal-container').hide();
     var el = $('.well form');
@@ -103,6 +104,7 @@ $(function () {
     $providersContainer.append(providerTemplate(provider));
   });
 
+
   $providersContainer.on('click', '.modal-initial-button a', function (e) {
     e.preventDefault();
 
@@ -111,6 +113,7 @@ $(function () {
     $.get($provider.data('jsonPath'), function (data) {
       window.modal = smartforms.createModal($provider.find('.modal-column .modal'), data);
       $provider.find('.modal-column .modal').modal('show');
+      
     });
   });
 });
