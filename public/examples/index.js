@@ -113,7 +113,6 @@ $(function () {
     $.get($provider.data('jsonPath'), function (data) {
       window.modal = smartforms.createModal($provider.find('.modal-column .modal'), data);
       $provider.find('.modal-column .modal').modal('show');
-      
     });
   });
 });
