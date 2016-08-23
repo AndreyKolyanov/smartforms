@@ -1,4 +1,4 @@
-li.item(class="#{_prefix}-list-item #{cls}" id="#{id}")
+li.item(class="#{_prefix}cart-list-item #{cls}" id="#{id}")
     .item-head.clearfix
         .modal-header
             .header-wrap(class=imgUrl ? "" : "without-image")
@@ -10,9 +10,8 @@ li.item(class="#{_prefix}-list-item #{cls}" id="#{id}")
                     .item-title= title
                         .b-payment-side
                             span.ruble= "₽"
-                            span.item-price= price
+                            span.item-price= data.sum
                     h5.item-subtitle= subtitle
                     span.panel-collapser
                         span= "—"
                         a.link-show(href="#")=" показать платеж"
-            

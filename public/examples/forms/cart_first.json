@@ -10,28 +10,34 @@
   "body": {
     "form": {
       "Платеж1": {
-        "block": "listItem",
-        "imageUrl":"https://vp.ru/pay/resources/media/images/provider/logo/oks_inet.jpg",
+        "block": "cartListItem",
+        "imgUrl":"https://vp.ru/pay/resources/media/images/provider/logo/oks_inet.jpg",
         "title": "Интернет Я.ru (Омские Кабельные Сети)",
         "subtitle":"Комиссия 0%",
-        "price": "566.00",
-        "formUrl":"/static/examples/forms/vp/beeline.json"
+        "formUrl":"/static/examples/forms/vp/beeline.json",
+        "data": {
+          "sum":"566.00"
+        }
       },
       "Платеж2": {
-        "block": "listItem",
-        "imageUrl":"https://vp.ru/pay/resources/media/images/provider/logo/mts.png",
+        "block": "cartListItem",
+        "imgUrl":"https://vp.ru/pay/resources/media/images/provider/logo/mts.png",
         "title": "МТС",
         "subtitle":"Комиссия 3%",
-        "price": "566.00",
-        "formUrl":"/static/examples/forms/vp/beeline.json"
+        "formUrl":"/static/examples/forms/vp/beeline.json",
+        "data": {
+          "sum":"566.00"
+        }
       },
       "Платеж3": {
-        "block": "listItem",
-        "imageUrl":"https://vp.ru/pay/resources/media/images/provider/logo/beeline.jpg",
+        "block": "cartListItem",
+        "imgUrl":"https://vp.ru/pay/resources/media/images/provider/logo/beeline.jpg",
         "title": "Билайн, сотовая связь",
         "subtitle":"Комиссия 3%",
-        "price": "566.00",
-        "formUrl":"/static/examples/forms/vp/beeline.json"
+        "formUrl":"/static/examples/forms/vp/beeline.json",
+        "data": {
+          "sum":"566.00"
+        }
       },
       "div": {
         "block":"divider"

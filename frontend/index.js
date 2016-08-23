@@ -26,7 +26,7 @@ import Modal from './blocks/modal/modal';
 import Form from './blocks/form/form';
 
 import './blocks/list/list';
-import './blocks/list_item/list_item';
+import './blocks/cart_list_item/cart_list_item';
 
 import configReader from './services/config_reader';
 import './services/mask_initializer';

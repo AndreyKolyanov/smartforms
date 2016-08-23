@@ -1,10 +1,10 @@
 import Base from '../base/base';
-import template from './list_item.jade';
+import template from './cart_list_item.jade';
 import Factory from '../factory';
-import './list_item.css';
+import './cart_list_item.css';
 import $ from 'jquery';
 
-export default class ListItem extends Base {
+export default class CartListItem extends Base {
   get templateFn() {
     return template;
   }
@@ -34,4 +34,4 @@ export default class ListItem extends Base {
 
 }
 
-Factory.register('listItem', ListItem);
+Factory.register('cartListItem', CartListItem);
